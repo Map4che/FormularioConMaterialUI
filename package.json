@@ -1,16 +1,14 @@
 {
   "name": "cursoreact-5",
   "private": true,
-  "homepage":"http://map4che.github.io/FormularioConMaterialU",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy":"npm run build",
-    "deploy": "gh-pages -d build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     
